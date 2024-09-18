@@ -11,4 +11,7 @@ export default defineNuxtConfig({
       // Add more environment variables as needed
     },
   },
+  server: {
+    host: '0.0.0.0',
+  }
 })

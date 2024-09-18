@@ -12,5 +12,4 @@ ENV NUXT_STUDENT_NIM ${STUDENT_NIM}
 WORKDIR /app
 COPY . /app
 RUN npm install
-ENV PORT 80
 CMD [ "npm", "run", "dev" ]

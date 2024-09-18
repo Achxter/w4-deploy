@@ -12,5 +12,3 @@ ENV NUXT_STUDENT_NIM ${STUDENT_NIM}
 WORKDIR /app
 COPY . /app
 RUN npm install
-
-CMD [ "npm", "run", "dev" ]

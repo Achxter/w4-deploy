@@ -6,5 +6,5 @@ services:
         STUDENT_NAME: "Hans Philemon Limanza"
         STUDENT_NIM: "00000070710"
     ports:
-      - "22:22"
+      - "3000:22"
     command: ["npm", "run", "dev"]

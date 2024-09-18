@@ -6,4 +6,4 @@ services:
         STUDENT_NAME: "Hans Philemon Limanza"
         STUDENT_NIM: "00000070710"
     ports:
-      - "80:3000"
+      - "80:80"
